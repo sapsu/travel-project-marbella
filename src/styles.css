@@ -1,9 +1,47 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: #dae1e7;
 }
-h1,
-h2,
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.hero {
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(39, 73, 109, 0.5),
+      rgba(39, 73, 109, 0.6)
+    ),
+    url("../src/images/marbella-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 100px;
+}
+.hero h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.hero h3 {
+  font-size: 15px;
+  letter-spacing: 1.5em;
+}
+.hero a {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #142850;
+  font-size: 20px;
+  font-weight: 500;
+}
 footer {
   text-align: center;
 }
