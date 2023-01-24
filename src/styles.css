@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #dae1e7;
+  background-color: whitesmoke;
 }
 .container {
   max-width: 1400px;
@@ -48,9 +48,14 @@ main {
   color: #142850;
 }
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+.secondary-section {
+  background-color: #dae1e7;
+}
+.text-center {
+  text-align: center;
 }
 .grid-2-columns {
   display: grid;
@@ -60,15 +65,55 @@ section {
 .img-responsive {
   max-width: 100%;
 }
-.grid-2-columns h3 {
+.small-uppercase-headline {
   font-size: 15px;
   opacity: 0.8;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1em;
 }
-.grid-2-columns h2 {
+.larger-headline {
   margin: 10px 0;
+}
+.grid-3-columns-even {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+}
+.card h5 {
+  margin: 5px 0;
+}
+.card h4 {
+  margin: 5px 0;
+}
+.card p {
+  margin: 0 0 15px 0;
+  opacity: 0.9;
+}
+.card-image {
+  display: block;
+  margin: 40px auto;
+  border: 10px solid #dae1e7;
+  border-radius: 3px;
+}
+.link-button {
+  background-color: #00909e;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.card-footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 footer {
   background-image: linear-gradient(
