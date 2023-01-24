@@ -113,7 +113,6 @@ section {
 }
 .card-footer {
   margin-top: 40px;
-  margin-bottom: 20px;
 }
 footer {
   background-image: linear-gradient(
@@ -173,6 +172,9 @@ footer p {
   .grid-3-columns-uneven {
     grid-template-columns: 1fr;
     grid-gap: 10px;
+  }
+  .grid-3-columns-even {
+    grid-template-columns: 1fr;
   }
   section {
     padding: 20px;
