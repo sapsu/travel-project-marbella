@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: whitesmoke;
+  color: #142850;
 }
 .container {
   max-width: 1400px;
@@ -53,6 +54,23 @@ section {
 }
 .secondary-section {
   background-color: #dae1e7;
+}
+table {
+  border-radius: 3px;
+  margin: 40px auto;
+}
+th,
+td {
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 3px;
+}
+th {
+  background-color: #27496d;
+  color: white;
+}
+td {
+  background-color: white;
 }
 .text-center {
   text-align: center;
