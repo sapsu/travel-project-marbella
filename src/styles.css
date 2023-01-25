@@ -212,4 +212,16 @@ footer p {
   .card-grid .img-responsive {
     aspect-ratio: 16 / 9;
   }
+  table {
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: left;
+  }
+  th,
+  td {
+    padding: 5px 8px;
+
+    border-radius: 3px;
+  }
 }
