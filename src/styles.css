@@ -21,8 +21,9 @@ body {
   padding: 100px;
 }
 .hero h1 {
-  font-size: 50px;
+  font-size: 64px;
   margin: 10px;
+  font-family: "Dancing Script", cursive;
 }
 .hero h2 {
   font-size: 24px;
@@ -41,7 +42,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   color: #142850;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 main {
@@ -54,6 +55,9 @@ section {
 }
 .secondary-section {
   background-color: #dae1e7;
+}
+p {
+  line-height: 1.5em;
 }
 .table-container {
   overflow-x: auto;
@@ -96,6 +100,7 @@ td {
 }
 .discover {
   max-width: 463px;
+  margin-top: 40px;
 }
 .small-uppercase-headline {
   font-size: 15px;
@@ -183,19 +188,23 @@ footer p {
 }
 @media (max-width: 960px) {
   .hero h1 {
-    font-size: 30px;
+    font-size: 32px;
   }
   .hero {
     padding: 40px;
   }
   .hero h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .hero h3 {
     letter-spacing: 0.5em;
+    font-size: 13px;
   }
   .hero a {
     font-size: 15px;
+  }
+  .larger-headline {
+    font-size: 20px;
   }
   footer {
     font-size: 15px;
@@ -220,15 +229,11 @@ footer p {
     aspect-ratio: 16 / 9;
   }
   table {
-    border-radius: 3px;
     font-size: 12px;
-    font-weight: bolder;
-    text-align: left;
+    font-weight: 600;
   }
   th,
   td {
     padding: 5px 8px;
-
-    border-radius: 3px;
   }
 }
