@@ -24,6 +24,12 @@ body {
   font-size: 64px;
   margin: 10px;
   font-family: "Dancing Script", cursive;
+  transition: 200ms;
+}
+.hero h1:hover {
+  transform: scale(1.2);
+  color: #ff0032;
+  text-shadow: 1px 1px #f5ea5a;
 }
 .hero h2 {
   font-size: 24px;
@@ -44,6 +50,9 @@ body {
   color: #142850;
   font-size: 18px;
   font-weight: 500;
+}
+.hero a:hover {
+  font-weight: 600;
 }
 section {
   margin: 0 auto;
@@ -98,6 +107,12 @@ td {
 .discover {
   max-width: 463px;
   margin-top: 40px;
+}
+.gallery {
+  transition: 100ms ease-in-out all;
+}
+.gallery:hover {
+  transform: scale(1.1);
 }
 .small-uppercase-headline {
   font-size: 15px;
