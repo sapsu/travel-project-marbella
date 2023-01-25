@@ -55,6 +55,9 @@ section {
 .secondary-section {
   background-color: #dae1e7;
 }
+.table-container {
+  overflow-x: auto;
+}
 table {
   border-radius: 3px;
   margin: 40px auto;
