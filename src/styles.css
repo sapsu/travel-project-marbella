@@ -92,6 +92,7 @@ td {
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 3px;
+  filter: brightness(105%) contrast(105%) saturate(103%);
 }
 .discover {
   max-width: 463px;
